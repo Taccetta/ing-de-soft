@@ -1,0 +1,14 @@
+Requisitos No Funcionales
+
+    El sistema debe soportar hasta 10 millones de usuarios activos concurrentes sin degradación significativa del rendimiento.
+    Las publicaciones de texto deben tener un límite de 5,000 caracteres.
+    La red social debe estar disponible 24/7 con un tiempo de inactividad planificado no mayor a 2 horas al mes para mantenimiento.
+    La plataforma debe ser accesible desde los navegadores Chrome, Mozilla Firefox, Safari y Edge, tanto en versiones de escritorio como móviles.
+    Las imágenes subidas deben comprimirse automáticamente para no exceder los 5 MB de tamaño sin perder calidad notable.
+    La aplicación móvil debe ser compatible con dispositivos que utilicen Android 8+ e iOS 14+.
+    Las consultas a la base de datos deben tener un tiempo de respuesta máximo de 200 ms para el 95% de las operaciones.
+    Las publicaciones y comentarios eliminados deben almacenarse en un estado "borrado" durante 30 días antes de su eliminación permanente.
+    Las transferencias de datos entre cliente y servidor deben realizarse mediante protocolo HTTPS con cifrado TLS 1.2 o superior.
+    Los usuarios deben poder recibir notificaciones en tiempo real con una latencia máxima de 1 segundo.
+    La aplicación deberá poder ser visualizada en navegadores Chrome, Mozilla Firefox y Safari.
+
